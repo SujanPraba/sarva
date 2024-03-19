@@ -7,10 +7,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-      },
+
     },
   },
-  darkMode:"class",
   plugins: [],
 };

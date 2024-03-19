@@ -1,9 +1,10 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-// import Logo from "../../public/gtlogo.svg";
+import Logo from "../../public/logo.png";
 
 const Navbar = () => {
   const [clickedFeild, setClickedFeild] = useState("Home");
@@ -23,10 +24,11 @@ const Navbar = () => {
     }
   };
 
+
   return (
-    <nav className="w-full h-20 bg-[#F4FAFA]">
+    <nav className="w-full h-20 bg-[white] shadow-xl top-0 fixed z-1000">
       <div className="flex justify-between items-center h-full  xl:w-[97%] w-full mx-auto">
-        <div className="lg:px-8">
+        <div className="lg:px-8 px-4">
           <Link href="/">
             <Image
               src={Logo}
@@ -60,7 +62,7 @@ const Navbar = () => {
                     : "text-[#666666]"
                 } mx-6`}
               >
-                Courses
+                About us
               </li>
             </Link>
             {/* <Link href="#training">
@@ -85,7 +87,7 @@ const Navbar = () => {
                   : "text-[#666666]"
               } mx-6`}
             >
-              Placement
+              Services
             </li>
             </Link>
             <Link href="#testimonial">
@@ -98,16 +100,18 @@ const Navbar = () => {
                   : "text-[#666666]"
               } mx-6`}
             >
-              Testimonial
+              Latest Works
             </li>
             </Link>
-            <Link href="#enquirenow" className="ml-2">
-              <li className="bg-[#333333] text-[white] px-[10px] font-normal py-[8px] rounded-[21px]">
-                Enquire Now
-              </li>
-            </Link>
+
           </ul>
+
         </div>
+        <Link href="#enquirenow" className="ml-2 hidden lg:block">
+              <p className="bg-[#FF6B00] text-[white] px-[10px] font-normal py-[8px] rounded-[21px] hover:p-[12px] transition-all duration-500">
+                Contact us
+              </p>
+            </Link>
         <div className="lg:hidden cursor-pointer pl-20 lg:pr-0 pr-4" onClick={handleNav}>
           <AiOutlineMenu size={25} />
         </div>

@@ -1,19 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@layer tailwind-base, primereact, tailwind-utilities;
 
-@layer tailwind-base {
-  @tailwind base;
-}
-
-@layer tailwind-utilities {
-  @tailwind components;
-  @tailwind utilities;
-}
-
-.p-button:enabled:focus {
-    box-shadow: none;
-    border-color: initial;
-  }
-  .p-inputtext:enabled:focus{
-    box-shadow: none;
-  }
