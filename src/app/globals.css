@@ -3,3 +3,9 @@
 @tailwind utilities;
 
 
+.pricingIndex{
+    z-index: -100 !important;
+}
+.latestIndex{
+    z-index: -100 !important;
+}
