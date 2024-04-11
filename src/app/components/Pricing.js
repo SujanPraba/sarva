@@ -87,7 +87,7 @@ const Pricing = () => {
             ></div>
           </button>
           <p className="text-base font-medium">
-            Annual pricing{" "}
+            Annual pricing{" "} <br></br>
             <span className="text-[#FF6B00]"> (save 10 - 20%)</span>
           </p>
         </div>

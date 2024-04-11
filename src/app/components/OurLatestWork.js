@@ -45,19 +45,21 @@ const OurLatestWork = () => {
     <>
       <div className="w-[82%] mx-auto">
         <div>
-          <p className="text-center font-[700] text-[40px]">Our Latest Work</p>
+          <p className="text-center font-[700] lg:text-[40px] text-[24px]">Our Latest Work</p>
           <p className="text-center font-[400] text-[#52525B] text-[14px] pt-2">
             Last Three works
           </p>
-          <div className="flex justify-between items-center pt-[30px] lg:pt-[60px]">
+          <div className="lg:flex justify-between items-center pt-[30px] lg:pt-[60px]">
             {cards.map((card, index) => (
               <div
                 key={index}
-                className={`w-[25%] shadow-2xl rounded-lg p-5 min-h-[400px] ${
+                className={`lg:w-[25%] w-[80%] mx-auto shadow-2xl rounded-lg p-5 min-h-[400px] ${
                   activeButton === index ? 'scale-110 transition-all duration-500 latestIndex' : ''
                 }`}
               >
+                <div className="flex lg:block justify-center">
                 <Image src={card.image} alt="img" />
+                </div>
                 <p className="text-[20px] text-[700] pt-3">{card.title}</p>
                 <p className="text-[13px] font-[400] text-[#191D23] pt-4">{card.description}</p>
               </div>
@@ -65,7 +67,7 @@ const OurLatestWork = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-start mt-8 ml-[45px] pb-6">
+      <div className="flex lg:justify-start justify-center mt-8 lg:ml-[45px] pb-6">
         {[0, 1, 2].map((index) => (
           <button
             key={index}

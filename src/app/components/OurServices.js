@@ -3,13 +3,13 @@ import searchEngine from "../../public/services/search.png";
 const OurServices = () => {
   return (
     <div>
-      <p className="text-[40px] font-[700] text-center">Our Services</p>
+      <p className="lg:text-[40px] text-[24px] font-[700] text-center">Our Services</p>
       <p className="text-[15px] font-[400] text-center pt-2 text-[#52525B]">
         Compelling creativity for digital success
       </p>
-      <div className="w-[90%] mx-auto pt-[60px]">
-        <div className="flex justify-between">
-          <div className="border-r-[1px] w-[29%] p-2">
+      <div className="w-[90%] mx-auto lg:pt-[60px] pt-[10px]">
+        <div className="lg:flex justify-between">
+          <div className="lg:border-r-[1px] border-b-[1px] lg:w-[29%] p-2">
             <div className="flex ">
               <Image src={searchEngine} alt="" />
             </div>
@@ -21,7 +21,7 @@ const OurServices = () => {
               making your brand stand out in search engine results.
             </p>
           </div>
-          <div className="border-r-[1px] w-[29%] p-2">
+          <div className="lg:border-r-[1px] border-b-[1px] lg:w-[29%] p-2">
             <div className="flex ">
               <Image src={searchEngine} alt="" />
             </div>
@@ -33,7 +33,7 @@ const OurServices = () => {
               making your brand stand out in search engine results.
             </p>
           </div>
-          <div className="border-r-[1px] w-[29%] p-2">
+          <div className="lg:border-r-[1px] border-b-[1px] lg:w-[29%] p-2">
             <div className="flex ">
               <Image src={searchEngine} alt="" />
             </div>
@@ -46,8 +46,8 @@ const OurServices = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-between mt-[50px]">
-          <div className="border-r-[1px] w-[29%] p-2">
+        <div className="lg:flex justify-between mt-[50px]">
+          <div className="lg:border-r-[1px] border-b-[1px] lg:w-[29%] p-2">
             <div className="flex ">
               <Image src={searchEngine} alt="" />
             </div>
@@ -59,7 +59,7 @@ const OurServices = () => {
               making your brand stand out in search engine results.
             </p>
           </div>
-          <div className="border-r-[1px] w-[29%] p-2">
+          <div className="lg:border-r-[1px] border-b-[1px] lg:w-[29%] p-2">
             <div className="flex ">
               <Image src={searchEngine} alt="" />
             </div>
@@ -71,7 +71,7 @@ const OurServices = () => {
               making your brand stand out in search engine results.
             </p>
           </div>
-          <div className="border-r-[1px] w-[29%] p-2">
+          <div className="lg:border-r-[1px] border-b-[1px] lg:w-[29%] p-2">
             <div className="flex ">
               <Image src={searchEngine} alt="" />
             </div>

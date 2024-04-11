@@ -119,7 +119,7 @@ const Navbar = () => {
       <div
         className={
           menuopen
-            ? "fixed left-0 top-0 w-[65%] lg:hidden h-screen bg-[#ecf0f3] p-10 ease-in duration-500 z-10"
+            ? "fixed left-0 top-0 w-[65%] lg:hidden h-screen bg-[#FF6B00] p-10 ease-in duration-500 z-10"
             : "fixed left-[-100%] top-0 p-10 ease-out duration-500"
         }
       >
@@ -138,8 +138,8 @@ const Navbar = () => {
               onClick={() => handleClick("courses")}
               className={`${
                 clickedFeild === "courses"
-                  ? "text-[#033631] border-b-[2px] border-[#033631]"
-                  : "text-[#666666]"
+                  ? "text-[white] border-b-[2px] border-[#white]"
+                  : "text-[#033631]"
               }  py-4`}
               // className="py-4 hover:border-b"
               >Courses</li>
@@ -159,8 +159,8 @@ const Navbar = () => {
                onClick={() => handleClick("placement")}
                className={`${
                  clickedFeild === "placement"
-                   ? "text-[#033631] border-b-[2px] border-[#033631]"
-                   : "text-[#666666]"
+                   ? "text-[white] border-b-[2px] border-[#white]"
+                   : "text-[#033631]"
                }  py-4`}
               >Placement</li>
             </Link>
@@ -169,8 +169,8 @@ const Navbar = () => {
               onClick={() => handleClick("testimonial")}
               className={`${
                 clickedFeild === "testimonial"
-                  ? "text-[#033631] border-b-[2px] border-[#033631]"
-                  : "text-[#666666]"
+                  ? "text-[white] border-b-[2px] border-[#white]"
+                  : "text-[#033631]"
               }  py-4`}
               >Testimonial</li>
             </Link>
