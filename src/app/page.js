@@ -1,12 +1,12 @@
 import Footer from "./components/Footer";
 import HeaderSection from "./components/HeaderSection";
 import Navbar from "./components/Navbar";
+import OurCulture from "./components/OurCulture";
 import OurDigital from "./components/OurDigital";
 import OurLatestWork from "./components/OurLatestWork";
 import OurServices from "./components/OurServices";
-import OurTeam from "./components/OurTeam";
 import Portfolio from "./components/Portfolio";
-import Pricing from "./components/Pricing";
+import ResultandMeasure from "./components/ResultandMeasure";
 import Testimonials from "./components/Testimonials";
 
 export default function Home() {
@@ -30,18 +30,26 @@ export default function Home() {
       <div className="pt-[50px] lg:pt-[100px]">
         <Portfolio />
       </div>
+      {/* <--------------------------ResultandMeasure Section ---------------------------> */}
+      <div className="pt-[50px] lg:pt-[100px]">
+        <ResultandMeasure />
+      </div>
+      {/* <--------------------------OurCulture Section ---------------------------> */}
+      <div className="pt-[50px] lg:pt-[100px]">
+        <OurCulture />
+      </div>
       {/* <--------------------------OurLatestWork Section ---------------------------> */}
       <div className="pt-[50px] lg:pt-[100px]">
         <OurLatestWork />
       </div>
       {/* <--------------------------Pricing Section ---------------------------> */}
-      <div className="pt-[50px] lg:pt-[100px]">
+      {/* <div className="pt-[50px] lg:pt-[100px]">
         <Pricing />
       </div>
       {/* <--------------------------OurTeam Section ---------------------------> */}
-      <div className="pt-[50px] lg:pt-[100px]">
+      {/* <div className="pt-[50px] lg:pt-[100px]">
         <OurTeam />
-      </div>
+      </div> */}
       {/* <--------------------------Testimonials Section ---------------------------> */}
       <div className="pt-[50px] lg:pt-[100px]">
         <Testimonials />

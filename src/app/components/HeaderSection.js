@@ -6,11 +6,13 @@ const HeaderSection = () => {
       <div className="lg:w-[45%] w-[100%] flex justify-center items-center mx-auto">
         <div>
           <h1 className="font-[700] lg:text-[60px] text-[28px] text-center lg:text-start">
-            Unlocking Digital Creativity in the Dark
+            Explosive growth and customers who can't get enough of your brand.
           </h1>
           <p className="text-[#4F4F4F] font-[400] lg:text-[14px] text-[12px] text-center lg:text-start">
-          &quot;Unlocking your brand&apos;s potential with data-driven strategies and
-            compelling creativity for digital success.&quot;
+            At Sarva Marketing, we turn marketing misfires into magic. We're a
+            renegade crew of storytellers, strategists, and data whizzes who
+            don't just market, <br></br>
+            <span className="text-[#FF6B00]">we ignite.</span>
           </p>
           <div className="lg:flex pt-[45px] w-[100%] mx-auto lg:w-full">
             <p className="lg:px-[35px] px-[25px] py-[17px] bg-[#FF6B00] text-[white] lg:text-[15px] text-[13px] font-[400] text-center border-[1px] border-transparent cursor-pointer rounded-lg hover:bg-[white] hover:text-[#FF6B00] hover:border-[1px] hover:border-[#FF6B00]">
