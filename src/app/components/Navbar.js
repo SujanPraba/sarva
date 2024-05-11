@@ -87,7 +87,7 @@ const Navbar = () => {
                   : "text-[#666666]"
               } mx-6`}
             >
-              Services
+              Feature
             </li>
             </Link>
             <Link href="#testimonial">
@@ -100,7 +100,7 @@ const Navbar = () => {
                   : "text-[#666666]"
               } mx-6`}
             >
-              Latest Works
+              Gallery
             </li>
             </Link>
 
@@ -108,7 +108,7 @@ const Navbar = () => {
 
         </div>
         <Link href="#enquirenow" className="ml-2 hidden lg:block">
-              <p className="bg-[#FF6B00] text-[white] px-[10px] font-normal py-[8px] rounded-[21px] hover:p-[12px] transition-all duration-500">
+              <p className="bg-[#00715C] text-[white] px-[10px] font-normal py-[8px] rounded-[21px] hover:p-[12px] transition-all duration-500">
                 Contact us
               </p>
             </Link>
@@ -119,7 +119,7 @@ const Navbar = () => {
       <div
         className={
           menuopen
-            ? "fixed left-0 top-0 w-[65%] lg:hidden h-screen bg-[#FF6B00] p-10 ease-in duration-500 z-10"
+            ? "fixed left-0 top-0 w-[65%] lg:hidden h-screen bg-[#00715C] p-10 ease-in duration-500 z-10"
             : "fixed left-[-100%] top-0 p-10 ease-out duration-500"
         }
       >
@@ -142,18 +142,8 @@ const Navbar = () => {
                   : "text-[#033631]"
               }  py-4`}
               // className="py-4 hover:border-b"
-              >Courses</li>
+              >About us</li>
             </Link>
-            {/* <Link href="#training">
-              <li
-              onClick={() => handleClick("training")}
-              className={`${
-                clickedFeild === "training"
-                  ? "text-[#033631] border-b-[2px] border-[#033631]"
-                  : "text-[#666666]"
-              }  py-4`}
-              >Training Process</li>
-            </Link> */}
             <Link href="#placement">
               <li
                onClick={() => handleClick("placement")}
@@ -162,7 +152,7 @@ const Navbar = () => {
                    ? "text-[white] border-b-[2px] border-[#white]"
                    : "text-[#033631]"
                }  py-4`}
-              >Placement</li>
+              >Gallery</li>
             </Link>
             <Link href="#testimonial">
               <li
@@ -172,11 +162,9 @@ const Navbar = () => {
                   ? "text-[white] border-b-[2px] border-[#white]"
                   : "text-[#033631]"
               }  py-4`}
-              >Testimonial</li>
+              >Features</li>
             </Link>
-            {/* <Link href="/">
-              <li className="py-4 hover:border-b">Blogs</li>
-            </Link> */}
+
           </ul>
         </div>
       </div>

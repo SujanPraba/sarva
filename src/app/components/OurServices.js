@@ -5,7 +5,7 @@ import color from "../../public/services/color.png";
 const OurServices = () => {
   return (
     <div>
-      <p className="text-[20px] font-[400] text-center pt-2 text-[#FF6B00]">
+      <p className="text-[20px] font-[400] text-center pt-2 text-[#00715C]">
         We have
       </p>
       <p className="lg:text-[40px] text-[24px] font-[700] text-center">
@@ -13,7 +13,7 @@ const OurServices = () => {
       </p>
       <div className="w-[90%] mx-auto lg:pt-[60px] pt-[10px]">
         <div className="lg:flex justify-between">
-          <div className="lg:border-r-[1px]  lg:w-[29%] p-2">
+          <div className="lg:border-r-[1px] border-b-[1px] lg:border-b-[0px] lg:w-[29%] p-2">
             <div className="flex ">
               <Image src={color} alt="" />
             </div>
@@ -25,7 +25,7 @@ const OurServices = () => {
               making your brand stand out in search engine results.
             </p>
           </div>
-          <div className="lg:border-r-[1px]  lg:w-[29%] p-2">
+          <div className="lg:border-r-[1px]  border-b-[1px] lg:border-b-[0px] lg:w-[29%] p-2">
             <div className="flex ">
               <Image src={chart} alt="" />
             </div>

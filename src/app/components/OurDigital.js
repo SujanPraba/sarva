@@ -40,13 +40,13 @@ const OurDigital = () => {
           </div>
 
           <div className="flex lg:hidden justify-between items-center">
-          <p className="p-3 rounded-lg bg-[#FF6B00] lg:w-[25%] w-[40%] text-center mt-3 text-[white] cursor-pointer">
+          <p className="p-3 rounded-lg bg-[#00715C] lg:w-[25%] w-[40%] text-center mt-3 text-[white] cursor-pointer">
               Contact us
             </p>
             <Image src={ourDigital} alt="img" className="h-[300px] w-[200px]"/>
           </div>
           <div className="lg:flex hidden justify-start pt-6">
-            <p className="p-3 rounded-lg bg-[#FF6B00] lg:w-[25%] w-[40%] text-center mt-3 text-[white] cursor-pointer">
+            <p className="p-3 rounded-lg bg-[#00715C] lg:w-[25%] w-[40%] text-center mt-3 text-[white] cursor-pointer">
               Contact us
             </p>
           </div>

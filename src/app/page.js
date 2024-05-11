@@ -1,12 +1,13 @@
 import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
 import HeaderSection from "./components/HeaderSection";
 import Navbar from "./components/Navbar";
 import OurCulture from "./components/OurCulture";
 import OurDigital from "./components/OurDigital";
+import OurDigitalService from "./components/OurDigitalService";
 import OurLatestWork from "./components/OurLatestWork";
 import OurServices from "./components/OurServices";
 import Portfolio from "./components/Portfolio";
-import ResultandMeasure from "./components/ResultandMeasure";
 import Testimonials from "./components/Testimonials";
 
 export default function Home() {
@@ -18,8 +19,8 @@ export default function Home() {
       <div className="pt-[100px] lg:pt-[150px]">
         <HeaderSection />
       </div>
-       {/* <--------------------------Our Services Section ---------------------------> */}
-       <div className="pt-[50px] lg:pt-[100px]">
+      {/* <--------------------------Our Services Section ---------------------------> */}
+      <div className="pt-[50px] lg:pt-[100px]">
         <OurServices />
       </div>
       {/* <--------------------------Our-Digital Section ---------------------------> */}
@@ -30,10 +31,7 @@ export default function Home() {
       <div className="pt-[50px] lg:pt-[100px]">
         <Portfolio />
       </div>
-      {/* <--------------------------ResultandMeasure Section ---------------------------> */}
-      <div className="pt-[50px] lg:pt-[100px]">
-        <ResultandMeasure />
-      </div>
+
       {/* <--------------------------OurCulture Section ---------------------------> */}
       <div className="pt-[50px] lg:pt-[100px]">
         <OurCulture />
@@ -42,16 +40,16 @@ export default function Home() {
       <div className="pt-[50px] lg:pt-[100px]">
         <OurLatestWork />
       </div>
-      {/* <--------------------------Pricing Section ---------------------------> */}
-      {/* <div className="pt-[50px] lg:pt-[100px]">
-        <Pricing />
-      </div>
-      {/* <--------------------------OurTeam Section ---------------------------> */}
-      {/* <div className="pt-[50px] lg:pt-[100px]">
-        <OurTeam />
-      </div> */}
-      {/* <--------------------------Testimonials Section ---------------------------> */}
+      {/* <--------------------------OurDigitalService Section ---------------------------> */}
       <div className="pt-[50px] lg:pt-[100px]">
+        <OurDigitalService />
+      </div>
+      {/* <--------------------------Gallery Section ---------------------------> */}
+      <div className="pt-[20px] lg:pt-[40px]">
+        <Gallery />
+      </div>
+      {/* <--------------------------Testimonials Section ---------------------------> */}
+      <div className="pt-[30px] lg:pt-[70px]">
         <Testimonials />
       </div>
       {/* <--------------------------Footer Section ---------------------------> */}

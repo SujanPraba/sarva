@@ -46,7 +46,7 @@ const OurLatestWork = () => {
     <>
       <div className="w-[82%] mx-auto">
         <div>
-        <p className="text-center font-[400] text-[#FF6B00] text-[20px] pt-2">
+        <p className="text-center font-[400] text-[#00715C] text-[20px] pt-2">
         Transform Your Business with
           </p>
           <p className="text-center font-[700] lg:text-[40px] text-[24px]">Our Marketing Services</p>
@@ -56,7 +56,7 @@ const OurLatestWork = () => {
               <div
                 key={index}
                 className={`lg:w-[25%] w-[80%] mx-auto shadow-2xl rounded-lg p-5 min-h-[360px] ${
-                  activeButton === index ? 'scale-110 transition-all duration-500 latestIndex' : ''
+                  activeButton === index ? '' : ''
                 }`}
               >
                 <div className="flex lg:block justify-center">
@@ -69,17 +69,17 @@ const OurLatestWork = () => {
           </div>
         </div>
       </div>
-      <div className="flex lg:justify-start justify-center mt-8 lg:ml-[45px] pb-6">
+      {/* <div className="flex lg:justify-start justify-center mt-8 lg:ml-[45px] pb-6">
         {[0, 1, 2].map((index) => (
           <button
             key={index}
-            className={`h-1 w-12 cursor-pointer rounded-md mt-[20px] bg-[#FF6B00] ml-3 ${
+            className={`h-1 w-12 cursor-pointer rounded-md mt-[20px] bg-[#00715C] ml-3 ${
               activeButton === index ? 'bg-gray-700' : ''
             }`}
             onClick={() => handleClick(index)}
           ></button>
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

@@ -16,7 +16,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -25,7 +25,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -34,7 +34,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -43,7 +43,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -54,7 +54,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -63,7 +63,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -72,7 +72,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -81,7 +81,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -94,7 +94,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -103,7 +103,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -112,7 +112,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -123,7 +123,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -132,7 +132,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -141,7 +141,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -152,7 +152,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -161,7 +161,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -174,7 +174,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -183,27 +183,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
-                Founder & CEO
-              </p>
-            </div>
-          </div>
-          <div className="flex-wrap justify-around w-[100%] mx-auto pt-[45px] flex">
-            <div className="w-[25%]">
-              <div className="flex justify-center">
-                <Image src={img1} alt="" />
-              </div>
-              <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
-                Founder & CEO
-              </p>
-            </div>
-            <div className="w-[25%]">
-              <div className="flex justify-center">
-                <Image src={img1} alt="" />
-              </div>
-              <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -214,7 +194,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -223,7 +203,27 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
+                Founder & CEO
+              </p>
+            </div>
+          </div>
+          <div className="flex-wrap justify-around w-[100%] mx-auto pt-[45px] flex">
+            <div className="w-[25%]">
+              <div className="flex justify-center">
+                <Image src={img1} alt="" />
+              </div>
+              <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
+                Founder & CEO
+              </p>
+            </div>
+            <div className="w-[25%]">
+              <div className="flex justify-center">
+                <Image src={img1} alt="" />
+              </div>
+              <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -233,7 +233,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>
@@ -242,7 +242,7 @@ const OurTeam = () => {
                 <Image src={img1} alt="" />
               </div>
               <p className="text-center text-[16px] font-[400] py-2">Mohan</p>
-              <p className="text-center text-[16px] font-[400] text-[#FF6B00]">
+              <p className="text-center text-[16px] font-[400] text-[#00715C]">
                 Founder & CEO
               </p>
             </div>

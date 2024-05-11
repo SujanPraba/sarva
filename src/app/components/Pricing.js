@@ -74,12 +74,12 @@ const Pricing = () => {
         <div className="flex items-center justify-center mt-10 space-x-4">
           <span className="text-base font-medium">Monthly pricing</span>
           <button
-            className="relative rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FF6B00]"
+            className="relative rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#00715C]"
             onClick={() =>
               setBillPlan(billPlan === "monthly" ? "annually" : "monthly")
             }
           >
-            <div className="w-16 h-8 transition bg-[#FF6B00] rounded-full shadow-md outline-none"></div>
+            <div className="w-16 h-8 transition bg-[#00715C] rounded-full shadow-md outline-none"></div>
             <div
               className={`absolute inline-flex items-center justify-center w-6 h-6 transition-all duration-200 ease-in-out transform bg-white rounded-full shadow-sm top-1 left-1 ${
                 billPlan === "monthly" ? "translate-x-0" : "translate-x-8"
@@ -88,7 +88,7 @@ const Pricing = () => {
           </button>
           <p className="text-base font-medium">
             Annual pricing{" "} <br></br>
-            <span className="text-[#FF6B00]"> (save 10 - 20%)</span>
+            <span className="text-[#00715C]"> (save 10 - 20%)</span>
           </p>
         </div>
 
@@ -143,10 +143,10 @@ const Pricing = () => {
               </ul>
               <div className="flex-shrink-0 pt-4">
                 <button
-                  className={`inline-flex items-center justify-center w-full max-w-xs px-4 py-2 transition-colors border rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FF6B00] ${
+                  className={`inline-flex items-center justify-center w-full max-w-xs px-4 py-2 transition-colors border rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#00715C] ${
                     plan.name === "Basic"
-                      ? "bg-[#FF6B00] text-white hover:bg-[#FF6B00]"
-                      : "hover:bg-[#FF6B00] hover:text-white"
+                      ? "bg-[#00715C] text-white hover:bg-[#00715C]"
+                      : "hover:bg-[#00715C] hover:text-white"
                   }`}
                 >
                   Get Started

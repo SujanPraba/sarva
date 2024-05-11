@@ -5,7 +5,7 @@ import color from "../../public/our-culture/3.png";
 const OurCulture = () => {
   return (
     <div>
-      <p className="text-[20px] font-[400] text-center pt-2 text-[#FF6B00]">
+      <p className="text-[20px] font-[400] text-center pt-2 text-[#00715C]">
         Our
       </p>
       <p className="lg:text-[40px] text-[24px] font-[700] text-center">
@@ -13,7 +13,7 @@ const OurCulture = () => {
       </p>
       <div className="w-[90%] mx-auto lg:pt-[60px] pt-[10px]">
         <div className="lg:flex justify-between">
-          <div className="lg:w-[29%] p-2">
+          <div className="lg:w-[29%] w-[50%] mx-auto p-2">
             <div className="flex justify-center">
               <Image src={brain} alt="" />
             </div>
@@ -25,7 +25,7 @@ const OurCulture = () => {
               making your brand stand out in search engine results.
             </p>
           </div>
-          <div className="lg:w-[29%] p-2">
+          <div className="lg:w-[29%] p-2 w-[50%] mx-auto">
             <div className="flex justify-center">
               <Image src={chart} alt="" />
             </div>
@@ -37,7 +37,7 @@ const OurCulture = () => {
               media campaigns, designed to captivate your audience.
             </p>
           </div>
-          <div className="lg:w-[29%] p-2">
+          <div className="lg:w-[29%] w-[50%] mx-auto p-2">
             <div className="flex justify-center">
               <Image src={color} alt="" />
             </div>

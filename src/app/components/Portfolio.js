@@ -14,28 +14,28 @@ const Portfolio = () => {
       </div>
       <div className="lg:pt-[60px] pt-[30px] lg:flex w-[90%] mx-auto justify-between items-center">
         <div className="lg:w-[50%] w-[100%] mx-auto">
-          <div className="py-6">
-            <p className="font-[600] text-[#FF6B00] lg:text-[30px] text-[18px]">
+          <div className="lg:py-6 py-2">
+            <p className="font-[600] text-[#00715C] lg:text-[30px] text-[18px]">
               Track Record of Success
             </p>
             <p className="text-[14px] font-[400] text-[#667085]">
               A history of achieving positive results for clients.
             </p>
           </div>
-          <div className="py-6">
-            <p className="font-[600] text-[#FF6B00] lg:text-[30px] text-[18px]">
+          <div className="lg:py-6 py-2">
+            <p className="font-[600] text-[#00715C] lg:text-[30px] text-[18px]">
             Strong Measurement Capabilities
             </p>
             <p className="text-[14px] font-[400] text-[#667085]">
             The ability to track key performance indicators (KPIs) and demonstrate the impact of marketing efforts.
             </p>
           </div>
-          <div className="py-6">
-            <p className="font-[600] text-[#FF6B00] lg:text-[30px] text-[18px]">
+          <div className="lg:py-6 py-2">
+            <p className="font-[600] text-[#00715C] lg:text-[30px] text-[18px]">
             Return on Investment (ROI) Focus
             </p>
             <p className="text-[14px] font-[400] text-[#667085]">
-            Prioritizing strategies that deliver measurable value for the client's marketing budget.
+            Prioritizing strategies that deliver measurable value for the client&apos;s marketing budget.
             </p>
           </div>
         </div>
