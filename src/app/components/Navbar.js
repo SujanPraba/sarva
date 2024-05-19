@@ -26,8 +26,8 @@ const Navbar = () => {
 
 
   return (
-    <nav className="w-full h-20 bg-[white] shadow-xl top-0 fixed z-1000">
-      <div className="flex justify-between items-center h-full  xl:w-[97%] w-full mx-auto">
+    <nav className="w-full h-20 bg-[#202020] shadow-xl py-4">
+      <div className="flex justify-between items-center h-full  xl:w-[82%] mx-auto py-2 w-[95%]">
         <div className="lg:px-8 px-4">
           <Link href="/">
             <Image
@@ -35,7 +35,7 @@ const Navbar = () => {
               alt="logo"
               className={`${
                 currentRoute === "/" ? "cursor-wait" : ""
-              } cursor-pointer`}
+              } cursor-pointer h-12 w-20`}
             />
           </Link>
         </div>
@@ -46,19 +46,19 @@ const Navbar = () => {
                 onClick={() => handleClick("Home")}
                 className={`${
                   clickedFeild === "Home"
-                    ? "text-[#033631] border-b-[2px] border-[#033631]"
+                    ? "text-[white] border-b-[2px] border-[white]"
                     : "text-[#666666]"
                 } mx-6`}
               >
                 Home
               </li>
             </Link>
-            <Link href="#courses">
+            <Link href="#aboutus">
               <li
                 onClick={() => handleClick("courses")}
                 className={`${
                   clickedFeild === "courses"
-                    ? "text-[#033631] border-b-[2px] border-[#033631]"
+                    ? "text-[white] border-b-[2px] border-[white]"
                     : "text-[#666666]"
                 } mx-6`}
               >
@@ -71,49 +71,49 @@ const Navbar = () => {
               onClick={() => handleClick("training")}
               className={`${
                 clickedFeild === "training"
-                  ? "text-[#033631] border-b-[2px] border-[#033631]"
+                  ? "text-[white] border-b-[2px] border-[white]"
                   : "text-[#666666]"
               } mx-6`}
             >
               Training Process
             </li>
             </Link> */}
-            <Link href="#placement">
+            <Link href="#services">
             <li
               onClick={() => handleClick("placement")}
               className={`${
                 clickedFeild === "placement"
-                  ? "text-[#033631] border-b-[2px] border-[#033631]"
+                  ? "text-[white] border-b-[2px] border-[white]"
                   : "text-[#666666]"
               } mx-6`}
             >
-              Feature
+              Services
             </li>
             </Link>
-            <Link href="#testimonial">
+            <Link href="#projects">
 
             <li
               onClick={() => handleClick("testimonial")}
               className={`${
                 clickedFeild === "testimonial"
-                  ? "text-[#033631] border-b-[2px] border-[#033631]"
+                  ? "text-[white] border-b-[2px] border-[white]"
                   : "text-[#666666]"
               } mx-6`}
             >
-              Gallery
+              Projects
             </li>
             </Link>
 
           </ul>
 
         </div>
-        <Link href="#enquirenow" className="ml-2 hidden lg:block">
-              <p className="bg-[#00715C] text-[white] px-[10px] font-normal py-[8px] rounded-[21px] hover:p-[12px] transition-all duration-500">
+        <Link href="#contactus" className="ml-2 hidden lg:block">
+              <p className="bg-[#00715C] text-[white] px-[15px] font-normal py-[8px] rounded-[4px] hover:p-[12px] transition-all duration-500">
                 Contact us
               </p>
             </Link>
         <div className="lg:hidden cursor-pointer pl-20 lg:pr-0 pr-4" onClick={handleNav}>
-          <AiOutlineMenu size={25} />
+          <AiOutlineMenu size={25} color="#ffffff"/>
         </div>
       </div>
       <div
@@ -133,36 +133,36 @@ const Navbar = () => {
             <Link href="/">
               <li className="py-4 hover:border-b">Home</li>
             </Link>
-            <Link href="#courses">
+            <Link href="#aboutus">
               <li
               onClick={() => handleClick("courses")}
               className={`${
                 clickedFeild === "courses"
                   ? "text-[white] border-b-[2px] border-[#white]"
-                  : "text-[#033631]"
+                  : "text-[white]"
               }  py-4`}
               // className="py-4 hover:border-b"
               >About us</li>
             </Link>
-            <Link href="#placement">
+            <Link href="#projects">
               <li
                onClick={() => handleClick("placement")}
                className={`${
                  clickedFeild === "placement"
                    ? "text-[white] border-b-[2px] border-[#white]"
-                   : "text-[#033631]"
+                   : "text-[white]"
                }  py-4`}
-              >Gallery</li>
+              >Projects</li>
             </Link>
-            <Link href="#testimonial">
+            <Link href="#services">
               <li
               onClick={() => handleClick("testimonial")}
               className={`${
                 clickedFeild === "testimonial"
                   ? "text-[white] border-b-[2px] border-[#white]"
-                  : "text-[#033631]"
+                  : "text-[white]"
               }  py-4`}
-              >Features</li>
+              >Services</li>
             </Link>
 
           </ul>

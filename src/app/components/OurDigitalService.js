@@ -8,7 +8,7 @@ const OurDigitalService = () => {
   return (
     <div className="w-[85%] mx-auto">
       <p className="lg:text-[42px] text-[28px] font-[700] text-center text-[#00715C]">
-        Digital services
+        Digital <span className="text-[black]">Services</span>
       </p>
       <div className="lg:flex justify-between w-full hidden items-center py-8">
         <div className="w-[17%]">

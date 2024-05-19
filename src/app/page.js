@@ -1,30 +1,55 @@
+"use client";
+import { useEffect } from "react";
+import DigitalAgency from "./components/DigitalAgency";
 import Footer from "./components/Footer";
-import Gallery from "./components/Gallery";
+import FormComponent from "./components/Form";
 import HeaderSection from "./components/HeaderSection";
 import Navbar from "./components/Navbar";
-import OurCulture from "./components/OurCulture";
+import OurClients from "./components/OurClients";
 import OurDigital from "./components/OurDigital";
 import OurDigitalService from "./components/OurDigitalService";
-import OurLatestWork from "./components/OurLatestWork";
-import OurServices from "./components/OurServices";
+import OurProjects from "./components/OurProjects";
 import Portfolio from "./components/Portfolio";
-import Testimonials from "./components/Testimonials";
+import Services from "./components/Services";
 
 export default function Home() {
+  useEffect(() => {
+    document.documentElement.classList.add("scroll-smooth");
+    document.body.classList.add("scroll-smooth");
+
+    // Cleanup on component unmount
+    return () => {
+      document.documentElement.classList.remove("scroll-smooth");
+      document.body.classList.remove("scroll-smooth");
+    };
+  });
   return (
-    <>
+    <div className="scroll-smooth">
       {/* <--------------------------NavBar Section ---------------------------> */}
       <Navbar />
       {/* <--------------------------Header Section ---------------------------> */}
-      <div className="pt-[100px] lg:pt-[150px]">
+      <div className="">
         <HeaderSection />
       </div>
+      <div className="pt-[50px] lg:pt-[100px]" id="aboutus">
+        <DigitalAgency />
+      </div>
+      <div className="pt-[20px] lg:pt-[50px]">
+        <OurClients />
+      </div>
+      <div className="pt-[20px] lg:pt-[50px]" id="services">
+        <Services />
+      </div>
       {/* <--------------------------Our Services Section ---------------------------> */}
-      <div className="pt-[50px] lg:pt-[100px]">
+      {/* <div className="pt-[20px] lg:pt-[50px]">
         <OurServices />
+      </div> */}
+      {/* <--------------------------OurDigitalService Section ---------------------------> */}
+      <div className="pt-[20px] lg:pt-[50px]">
+        <OurDigitalService />
       </div>
       {/* <--------------------------Our-Digital Section ---------------------------> */}
-      <div className="pt-[50px] lg:pt-[100px]">
+      <div className="pt-[50px] lg:pt-[50px]">
         <OurDigital />
       </div>
       {/* <--------------------------Our-Digital Section ---------------------------> */}
@@ -32,30 +57,17 @@ export default function Home() {
         <Portfolio />
       </div>
 
-      {/* <--------------------------OurCulture Section ---------------------------> */}
       <div className="pt-[50px] lg:pt-[100px]">
-        <OurCulture />
+        <OurProjects />
       </div>
-      {/* <--------------------------OurLatestWork Section ---------------------------> */}
       <div className="pt-[50px] lg:pt-[100px]">
-        <OurLatestWork />
+        <FormComponent />
       </div>
-      {/* <--------------------------OurDigitalService Section ---------------------------> */}
-      <div className="pt-[50px] lg:pt-[100px]">
-        <OurDigitalService />
-      </div>
-      {/* <--------------------------Gallery Section ---------------------------> */}
-      <div className="pt-[20px] lg:pt-[40px]">
-        <Gallery />
-      </div>
-      {/* <--------------------------Testimonials Section ---------------------------> */}
-      <div className="pt-[30px] lg:pt-[70px]">
-        <Testimonials />
-      </div>
+
       {/* <--------------------------Footer Section ---------------------------> */}
       <div className="pt-[50px] lg:pt-[100px]">
         <Footer />
       </div>
-    </>
+    </div>
   );
 }

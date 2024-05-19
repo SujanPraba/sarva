@@ -53,7 +53,7 @@ const OurDigital = () => {
         </div>
       </div>
       <div className="w-[40%] hidden lg:flex">
-        <Image src={ourDigital} alt="img" />
+        <Image src={ourDigital} alt="img"  className=""/>
       </div>
     </div>
   );
